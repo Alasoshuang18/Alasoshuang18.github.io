@@ -1,13 +1,2 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
-
-- National Scholarship for聽Graduate聽Students (Ministry聽of聽Education, China), 2024.
-
-- First-Prize聽Graduate聽Academic聽Scholarship (CUMT), 2023 & 2024.
-
-- Outstanding Undergraduate Thesis Award (Jiangsu Provincial Dept. of Education, China), 2022.
-
-- First-Prize聽Corporate聽Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate聽Academic聽Scholarship (CUMT), 2019.
-
+- seeed-stdudio 胡闹厨房黑客松三等奖

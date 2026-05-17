@@ -1,17 +1,19 @@
 
+## ¹ØÓÚÎÒ
+ÎÒÊÇ **Alaso_shuang**£¬¼ÆËã»ú¿ÆÑ§Óë¼¼Êõ×¨Òµ±¾¿ÆÉú£¨2024¼¶£©£¬ÈÈ°®Ç¶ÈëÊ½¿ª·¢£¬ÔÚEKAÕ½¶ÓÖĞµ£ÈÎÕ½¶Ó×Ü¶Ó³¤
+-  **ÓÊÏä**£º3342880042@qq.com
+- **¼¼Êõ²©¿Í1**£º[²©¿ÍÔ°](https://www.cnblogs.com/Alaso687)
+- **¼¼Êõ²©¿Í2**£º[github](https://github.com/Alasoshuang18)
+- **BÕ¾ÕËºÅ**£º[BÕ¾](https://space.bilibili.com/502417089)
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+## ³£ÓÃ¼¼ÊõÕ»
 
-#### Contact
-
-Email: senli[at]fas.harvard.edu
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022â€”2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018â€”2022.
-
-#### Research Interests
-Machine Learning for Seismology; Foundation Model; Observational Seismology; Microseismic Monitoring
-
+| Àà±ğ       | ¼¼Êõ                                  |
+| ---------- | ------------------------------------- |
+| ±à³ÌÓïÑÔ   | C/C++, Python                         |
+| Ç¶ÈëÊ½Æ½Ì¨ | Arduino , STM32, ESP32 , Ê÷İ®ÅÉ, GD32 |
+| ¼ÆËã»úÊÓ¾õ | OpenCV, Picamera2                     |
+| ÉÏÎ»»ú¿ª·¢ | Qt/C++                                |
+| Ó²¼ş½Ó¿Ú   | I2C, SPI, UART, GPIO, PWM             |
+| ÍÅ¶Ó¹ÜÀí   | ¼¼Êõ¹æ»®¡¢ÈÎÎñ²ğ½â¡¢½ø¶È¸ú½ø          |
