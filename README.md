@@ -18,18 +18,21 @@
 - js-yaml (配置解析)
 
  ## 项目结构
-├── index.html # 主页面
-├── config.yml # 配置文件
-├── home.md # 个人介绍
-├── projects.md # 项目经历
-├── awards.md # 获奖情况
-├── hobby.md # 兴趣爱好
-├── static/
-│ ├── css/ # 样式文件
-│ ├── js/ # JavaScript 文件
-│ └── assets/ # 图片等资源
-└── README.md # 项目说明
 
+```
+.
+├── index.html          # 主页面
+├── config.yml          # 配置文件
+├── home.md             # 个人介绍
+├── projects.md         # 项目经历
+├── awards.md           # 获奖情况
+├── hobby.md            # 兴趣爱好
+├── static/
+│   ├── css/            # 样式文件
+│   ├── js/             # JavaScript 文件
+│   └── assets/         # 图片等资源
+└── README.md           # 项目说明
+```
 ## 📝 内容说明
 
 - **home.md** - 个人简介、技术栈、联系方式
