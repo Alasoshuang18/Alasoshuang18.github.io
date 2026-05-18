@@ -15,4 +15,3 @@
 | 计算机视觉 | OpenCV, Picamera2                     |
 | 上位机开发 | Qt/C++                                |
 | 硬件接口   | I2C, SPI, UART, GPIO, PWM             |
-| 团队管理   | 技术规划、任务拆解、进度跟进          |
