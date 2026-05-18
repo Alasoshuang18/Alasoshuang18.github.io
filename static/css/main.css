@@ -151,3 +151,36 @@ section .main-body {
         font-size: 0.9rem;
     }
 }
+
+/* 确保所有 section 标题可见 */
+#home-subtitle,
+#projects-subtitle,
+#awards-subtitle,
+#hobby-subtitle {
+    color: var(--h-title-color) !important;
+    display: block !important;
+    visibility: visible !important;
+    margin-bottom: 1rem;
+}
+
+/* 确保 main-body 内容可见 */
+.main-body {
+    color: #333 !important;
+}
+
+/* 奖项区域特殊处理（如果需要） */
+#awards .main-body {
+    color: #333;
+}
+
+/* 确保背景不会覆盖文字 */
+.bg-gradient-primary-to-secondary-light,
+.bg-gradient-primary-to-secondary-gray {
+    background: #f8f9fa !important;
+}
+
+/* 调试样式 - 临时添加，确认元素存在 */
+#awards-subtitle {
+    border: 1px dashed red;
+    /* 临时添加，确认元素位置 */
+}
