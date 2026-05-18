@@ -54,6 +54,22 @@ section .main-body {
     line-height: 2.4rem;
 }
 
+/* 单独控制表格的行间距 */
+.main-body table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1rem 0;
+}
+
+.main-body th,
+.main-body td {
+    padding: 14px 12px;
+    /* 控制单元格上下内边距，拉开行距 */
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
