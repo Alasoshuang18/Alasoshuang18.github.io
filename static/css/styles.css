@@ -12728,3 +12728,14 @@ footer a:focus {
   padding: 1.5rem;
   border-radius: 1rem;
 }
+
+body {
+  padding-top: 76px !important;
+}
+
+/* 移动端适配：当导航栏换行时增加内边距 */
+@media (max-width: 992px) {
+  body {
+    padding-top: 120px !important;
+  }
+}
