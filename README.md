@@ -1,160 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+# Alaso_shuang 的个人主页
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="Alaso_shuang" />
-    <title id="title">个人主页</title>
+## 📖 简介
 
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+这是我的个人学术主页，使用 HTML/CSS/JavaScript 构建，基于 Bootstrap 5 和 MathJax。
 
-    <!-- 关键：Bootstrap 核心 CSS 必须加在最前面 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+## 🔗 访问地址
 
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+[https://alasoshuang18.github.io](https://alasoshuang18.github.io)
 
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+## 🛠️ 技术栈
 
-    <!-- Core theme CSS -->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+- HTML5 / CSS3
+- Bootstrap 5.1.3
+- JavaScript (ES6)
+- Marked.js (Markdown 解析)
+- MathJax (数学公式渲染)
+- js-yaml (配置解析)
 
-    <!-- MathJax -->
-    <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: false,
-                tags: 'all'
-            }
-        };
-    </script>
-    <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+ ## 项目结构
+├── index.html # 主页面
+├── config.yml # 配置文件
+├── home.md # 个人介绍
+├── projects.md # 项目经历
+├── awards.md # 获奖情况
+├── hobby.md # 兴趣爱好
+├── static/
+│ ├── css/ # 样式文件
+│ ├── js/ # JavaScript 文件
+│ └── assets/ # 图片等资源
+└── README.md # 项目说明
 
-</head>
+## 📝 内容说明
 
-<body id="page-top">
-    <!-- Navigation：修正样式，加背景和内边距 -->
-    <nav class="header navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm py-3" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">个人主页</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">目录</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#projects">项目</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">奖项</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#hobby">兴趣爱好</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- 给下面的内容加 margin-top，避免被导航栏挡住 -->
-    <div style="margin-top: 80px;"></div>
-
-    <!-- Top Section -->
-    <section class="top-section py-5"
-        style="background-image: url('static/assets/img/background.jpeg'); background-size: cover; background-position: center;">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">欢迎来到我的主页</h2>
-            </div>
-        </div>
-    </section>
-
-    <!-- Photo：修正居中样式 -->
-    <div class="container px-5 py-4">
-        <div id="avatar" class="text-center">
-            <img class="shadow rounded-circle" src="static/assets/img/photo.png"
-                style="width: 150px; height: 150px; object-fit: cover;">
-        </div>
-    </div>
-
-    <!-- home：修正类名，加内边距 -->
-    <section class="bg-gradient-primary-to-secondary-light py-5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle">目录</h2>
-            </header>
-            <div class="main-body mt-3" id="home-md"></div>
-        </div>
-    </section>
-
-    <!-- projects -->
-    <section class="bg-gradient-primary-to-secondary-gray py-5" id="projects">
-        <div class="container px-5">
-            <header>
-                <h2 id="projects-subtitle"><i class="bi bi-folder-fill"></i>&nbsp;项目</h2>
-            </header>
-            <div class="main-body mt-3" id="projects-md"></div>
-        </div>
-    </section>
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light py-5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>&nbsp;奖项 </h2>
-            </header>
-            <div class="main-body mt-3" id="awards-md"></div>
-        </div>
-    </section>
-
-    <!-- hobby：修正图标为合法的 bi-heart-fill -->
-    <section class="bg-gradient-primary-to-secondary-light py-5" id="hobby">
-        <div class="container px-5">
-            <header>
-                <h2 id="hobby-subtitle"><i class="bi bi-heart-fill"></i>&nbsp;兴趣爱好 </h2>
-            </header>
-            <div class="main-body mt-3" id="hobby-md"></div>
-        </div>
-    </section>
-
-    <!-- Footer：修正背景色和文本颜色 -->
-    <footer class="bg-dark text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2">© 2025 个人主页</div>
-                <a id="github-link" href="https://github.com/senli1073" class="text-white-50">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE"
-                    class="text-white-50">License</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS 放到 body 末尾，避免影响页面渲染 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- 先加载 marked.js -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <!-- 再加载 js-yaml -->
-    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-    <!-- 最后加载您的自定义脚本 -->
-    <script type="text/javascript" src="static/js/scripts.js?v=1.1"></script>
-
-</body>
-
-</html>
+- **home.md** - 个人简介、技术栈、联系方式
+- **projects.md** - 项目经历、技术贡献
+- **awards.md** - 获奖荣誉
+- **hobby.md** - 兴趣爱好
